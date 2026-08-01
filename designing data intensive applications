@@ -1,0 +1,19 @@
+# data intensive applications 
+large quantities of data or the complexity of data or the speed at which it is changing 
+
+# CPU intensive applications 
+CPU cycles are the bottlenecks 
+
+Reliability, scalability and maintenability
+### Reliability - tolerating hardware and software faults, human error
+### Scalability - measuring load and performance… latency percentives and throughput
+### Maintainability - operability, simplicity and evolvability
+
+
+## Standard building blocks of data intensive applications:
+Store data so that they, or another application, can find it again later (databases)
+• Remember the result of an expensive operation, to speed up reads (caches)
+• Allow users to search data by keyword or filter it in various ways (search indexes)
+• Send a message to another process, to be handled asynchronously (stream pro‐
+cessing)
+• Periodically crunch a large amount of accumulated data (batch processing)
