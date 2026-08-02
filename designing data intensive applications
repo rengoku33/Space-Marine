@@ -17,3 +17,12 @@ Store data so that they, or another application, can find it again later (databa
 • Send a message to another process, to be handled asynchronously (stream pro‐
 cessing)
 • Periodically crunch a large amount of accumulated data (batch processing)
+
+## data systems:
+databases, message queues, caches... databases and message queues are similar such that they both store data for sometime but their access patterns are different.
+- there are datastores that are also used as message queues (Redis), 
+- and there are message queues with database-like durability guarantees (Apache Kafka).
+
+memcache - application managed caching layer
+elasticsearch - a full text search server
+it is the application's code responsibility to keep these cashes and indexes in sync with the main database
