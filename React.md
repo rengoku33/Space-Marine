@@ -39,6 +39,11 @@ $r - last select component in inspector\
 $0 - last dom selected in inspector\
 Profiler > (falmegraph / ranked) check component rendering time and performance
 
+## React performance
+whenever a component changes, all its child components re-renders:
+<img width="516" height="414" alt="image" src="https://github.com/user-attachments/assets/6c96297c-ab1a-4108-a89d-95635df83350" />  
+
+
 ## lazy loading
 split build into chunks and render them only when its route is visited
 <img width="520" height="340" alt="image" src="https://github.com/user-attachments/assets/62535178-e27a-4f82-957b-c43752dc790a" />
