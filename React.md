@@ -39,9 +39,16 @@ $r - last select component in inspector\
 $0 - last dom selected in inspector\
 Profiler > (falmegraph / ranked) check component rendering time and performance
 
-## React performance
-whenever a component changes, all its child components re-renders:
+# React performance
+whenever a component changes, all its child components re-renders: 
 <img width="516" height="414" alt="image" src="https://github.com/user-attachments/assets/6c96297c-ab1a-4108-a89d-95635df83350" />  
+
+## the needless useState - useEffect anti-pattern
+whenever a useState inside a component changes, the entire component re-renders... so no need to cause double renders using useEffect
+<img width="33%" alt="image" src="https://github.com/user-attachments/assets/e9edc386-31f2-4d41-85f0-c4d55a891a3e" />
+<img width="33%" alt="image" src="https://github.com/user-attachments/assets/42356510-5a1e-4e74-9e65-0fae2aaab2b7" />
+<img width="33%" alt="image" src="https://github.com/user-attachments/assets/8b3685bd-4eb9-4c85-ae63-d250e580b221" />
+
 
 
 ## lazy loading
