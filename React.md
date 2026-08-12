@@ -49,6 +49,14 @@ whenever a useState inside a component changes, the entire component re-renders.
 <img width="33%" alt="image" src="https://github.com/user-attachments/assets/42356510-5a1e-4e74-9e65-0fae2aaab2b7" />
 <img width="33%" alt="image" src="https://github.com/user-attachments/assets/8b3685bd-4eb9-4c85-ae63-d250e580b221" />
 
+## the all purpose useRef
+basically useRef doesnt let re-render at all when .current changes, besides it can literally store literally anything at .current  
+1. performance (prevent re-render)
+2. store anything (this bastard can literally store anything, from DOM elements to fns)
+<img width="36%" alt="image" src="https://github.com/user-attachments/assets/4fb2e1b9-60c1-4203-a7f0-b16775ca22ee" />  
+<img width="31%" alt="image" src="https://github.com/user-attachments/assets/625fb010-6dbe-444e-94fe-fc10fcf8ec5b" />
+<img width="30%" height="105" alt="image" src="https://github.com/user-attachments/assets/9cdaa796-4364-4ba5-aea7-fa8438293cbb" />
+
 
 
 ## lazy loading
